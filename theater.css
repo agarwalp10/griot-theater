@@ -1,0 +1,229 @@
+* {
+    /* border: 1px solid red; */
+    
+  
+}
+
+body {
+    /* Getting rid of white border */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+ul {
+    /* geting rid of bullet points */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100%;
+}
+
+/* Editing the Brand Name */
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 2em;
+}
+
+/* editing the navbar items */
+.navbar-list {
+    display: flex;
+    flex-direction: column; /* made the two words on same line */
+    justify-content: center;
+    /* text-align: center; */
+    width: 80%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* editing each individual item */
+/* .nav-item { */
+    /* margin: 20px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%; */
+    /* margin: 15px;
+    width: 100%;
+    height: 100%; */
+    /* width: 100%; */
+    /* height: 100%; */
+/* } */
+
+.nav-item {
+    margin: 15px;
+}
+
+/* styling links */
+a {
+    /* taking away underlines */
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Main image */
+/* Creating a Paralax Effect */
+.background {
+    /* displaying image in background */
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -150px;
+}
+
+.showfeats {
+    display: flex;
+    z-index: 1;
+    height: 6em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 6em;
+}
+
+.show-listing-tiles {
+    background-color: white;
+
+    border: 1px solid transparent;
+   
+}
+
+
+h2 {
+    background-color: lightgrey;
+    padding-left: 20px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main-tiles {
+    /* border: px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+}
+
+.date-info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid black;
+}
+
+.show-information {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+.image-container-show {
+    /* border: 1px solid red; */
+    width: 250px;
+    padding-left: 10px;
+}
+
+.acting-image {
+    height: 250px;
+}
+
+/* editing footer */
+
+.footer-tiles {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* space around map */
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+/* the actual map */
+.mapping {
+    width: 250px;
+}
+
+/* making the width 25% each of the entire row */
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+    padding-top: 20px;
+}
+
+button {
+   
+    background-color: orange;
+    color: white;
+    height: 100px;
+    width: 150px;
+    font-size: 1.5em;
+    
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
